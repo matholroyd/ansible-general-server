@@ -4,6 +4,6 @@
   remote_user: "{{username}}"
   
   roles:
-    - file-server
+    - database
 
 
