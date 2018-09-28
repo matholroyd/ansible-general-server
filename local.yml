@@ -1,0 +1,7 @@
+---
+- name: apply server config
+  hosts: localhost
+  remove_user: "{{username}}"
+  
+  roles:
+    - file-server
